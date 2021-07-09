@@ -497,15 +497,17 @@ template {
     margin-right: 73px;
   }
   .navbar-menu {
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding: 21px 0px;
+    margin-right: 13px;
+    margin-left: 13px;
+  }
+  .navbar-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
   }
   .search__input {
     width: 340px;
-  }
-  .search__link {
-    font-size: 12px;
-    line-height: 15px;
   }
 }
 
