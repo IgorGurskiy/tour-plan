@@ -491,6 +491,7 @@ template {
 .breadcrumb-list__item {
   font-size: 10px;
   line-height: 13px;
+  font-weight: 400;
 }
 
 .breadcrumb-list__item:not(:last-child)::after {
@@ -563,10 +564,12 @@ template {
 .offer {
   font-size: 10px;
   line-height: 13px;
+  font-weight: 600;
   padding: 4px 9px;
   background-color: #EC1F46;
   border-radius: 3px;
   color: #fff;
+  cursor: pointer;
 }
 
 .rating {
@@ -576,6 +579,7 @@ template {
   color: #fff;
   background-color: #EC1F46;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .rating__text {
@@ -660,6 +664,7 @@ template {
   .stars {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
+    margin-right: 20px;
   }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
