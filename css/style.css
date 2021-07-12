@@ -412,6 +412,9 @@ template {
   color: inherit;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
 }
 
 .logo {
@@ -664,7 +667,6 @@ template {
   .stars {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
-    margin-right: 20px;
   }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
