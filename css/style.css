@@ -1198,6 +1198,13 @@ template {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .reviews__title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+  }
   .reviews-slider__item {
     max-width: 580px;
     padding: 0 30px 30px;
@@ -1300,6 +1307,13 @@ template {
   .slider-button__next {
     width: 11px;
     height: 12px;
+  }
+  .reviews__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
   }
 }
 /*# sourceMappingURL=style.css.map */
