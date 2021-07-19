@@ -1296,15 +1296,15 @@ template {
   .container {
     width: 90%;
   }
-  .slider {
+  .hotel-slider {
     width: 100%;
     height: 179px;
   }
-  .slider-button__prev {
+  .hotel-slider__button__prev {
     width: 11px;
     height: 12px;
   }
-  .slider-button__next {
+  .hotel-slider__button__next {
     width: 11px;
     height: 12px;
   }
