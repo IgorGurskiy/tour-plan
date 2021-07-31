@@ -647,6 +647,7 @@ template {
 .stars {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  line-height: 8px;
 }
 
 .offer {
@@ -685,7 +686,7 @@ template {
   color: #fff;
   border-radius: 8px;
   width: 350px;
-  min-height: 210px;
+  height: 210px;
   padding: 28px;
 }
 
@@ -1183,10 +1184,10 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    min-height: 450px;
   }
   .booking {
     width: 100%;
+    margin-bottom: 20px;
   }
   .map {
     width: 100%;
@@ -1300,6 +1301,9 @@ template {
   .container {
     width: 90%;
   }
+  .hotel-info {
+    padding-bottom: 38px;
+  }
   .hotel-slider {
     width: 100%;
     height: 179px;
@@ -1312,12 +1316,21 @@ template {
     width: 11px;
     height: 12px;
   }
+  .map {
+    max-height: 173px;
+  }
   .reviews__title {
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
     text-align: center;
     text-transform: uppercase;
+  }
+  .breadcrumb-list {
+    padding-top: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
