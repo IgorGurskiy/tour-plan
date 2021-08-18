@@ -914,7 +914,8 @@ template {
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  margin-top: 40px;
 }
 
 .reviews-slider__item {
@@ -1210,6 +1211,7 @@ template {
     line-height: 38px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 50px;
   }
   .reviews-slider__item {
     max-width: 580px;
@@ -1322,6 +1324,7 @@ template {
     line-height: 38px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 50px;
   }
   .reviews-slider__item {
     max-width: 580px;
@@ -1417,7 +1420,7 @@ template {
     width: 100%;
   }
   .reviews__title {
-    margin-top: 0;
+    margin-top: 40px;
     margin-bottom: 42px;
   }
   .reviews-slider__username {
@@ -1462,6 +1465,7 @@ template {
     line-height: 23px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 42px;
   }
   .breadcrumb-list {
     padding-top: 18px;
